@@ -6,7 +6,7 @@ Check out the README files in each subdirectory for more detail.
 ## Contents
 
 ### Homework
-* [hw1](/Homework/hw1/)
+* [Problem Set 1](/Homework/hw1/)
 
 ### Project
 
