@@ -3,7 +3,7 @@ _Due on July 18, 2017._
 
 ## Notes
 * Written solutions are in [`math.pdf`](./math.pdf).
-* Programming solutions are in the [`Code`](/Code/) folder.
+* Programming solutions are in the [`Code`](./Code/) folder.
 	* Linear Regression is in [`regression.py`](./Code/regression.py).
 	* Nearest Neighbor is in [`neighbor.py`](./Code/neighbor.py).
 
