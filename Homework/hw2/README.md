@@ -6,6 +6,7 @@
 * Programming solutions are in the [`Code`](./Code/) folder.
 	* Linear Regression is in [`regression.py`](./Code/regression.py).
 	* Nearest Neighbor is in [`neighbor.py`](./Code/neighbor.py).
+* Datasets are in the [`Others`](./Others/) folder.
 
 ## Documentation
 `Work in progress.`
