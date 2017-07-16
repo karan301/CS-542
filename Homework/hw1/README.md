@@ -2,7 +2,7 @@
 _Due on July 11, 2017._
 
 ## Notes
-* Written solutions are in [`hw1.pdf`](./hw1.pdf). The first Bayes problem is missing (ran out of time).
+* Written solutions are in [`math.pdf`](./math.pdf). The first Bayes problem is missing (ran out of time).
 * Prediction solution is in [`predict.py`](./predict.py). The skeleton is all there (use some rules before resorting to random) but I haven't yet added the rules (ran out of time again).
 * I apologize for the incompleteness. I had another assignment due and couldn't get both done on-time. I hope I get partial marks because the logic is there.
 
