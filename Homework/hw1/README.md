@@ -1,5 +1,5 @@
 # Problem Set 1
-_Due on July 11, 2017._
+[Assignment PDF](./ps1.pdf)._Due on July 11, 2017._
 
 ## Notes
 * Written solutions are in [`math.pdf`](./math.pdf). The first Bayes problem is missing (ran out of time).

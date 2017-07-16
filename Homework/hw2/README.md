@@ -1,5 +1,5 @@
 # Problem Set 2
-_Due on July 18, 2017._
+[Assignment PDF](./ps2.pdf). _Due on July 18, 2017._
 
 ## Notes
 * Written solutions are in [`math.pdf`](./math.pdf).
