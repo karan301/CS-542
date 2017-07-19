@@ -7,9 +7,10 @@
 	* Linear Regression is in [`regression.py`](./Code/regression.py).
 	* Nearest Neighbor is in [`neighbor.py`](./Code/neighbor.py).
 * Datasets are in the [`Others`](./Others/) folder.
+	* `regression.py` references [`detroit.mat`](./Others/detroit.mat).
 
 ## Documentation
 `Work in progress.`
 
 ----
-_Updated on July 16, 2017 by Karan Varindani._
+_Updated on July 19, 2017 by Karan Varindani._
