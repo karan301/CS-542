@@ -7,6 +7,7 @@ Check out the README files in each subdirectory for more detail.
 
 ### Homework
 * [Problem Set 1](/Homework/hw1/)
+* [Problem Set 2](/Homework/hw2/)
 
 ### Project
 
