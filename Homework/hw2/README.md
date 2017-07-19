@@ -11,7 +11,8 @@
 	* `neighbor.py` references several files in this folder.
 
 ## Documentation
-`Work in progress.`
+* Run `regression.py` standalone for the first programming part. The comments should guide you through what's going on. 
+* `neighbor.py` is **incomplete**.
 
 ----
 _Updated on July 19, 2017 by Karan Varindani._
