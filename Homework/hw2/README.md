@@ -8,6 +8,7 @@
 	* Nearest Neighbor is in [`neighbor.py`](./Code/neighbor.py).
 * Datasets are in the [`Others`](./Others/) folder.
 	* `regression.py` references [`detroit.mat`](./Others/detroit.mat).
+	* `neighbor.py` references several files in this folder.
 
 ## Documentation
 `Work in progress.`
