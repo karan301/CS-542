@@ -1,3 +1,7 @@
+% Karan Varindani
+% karan301@bu.edu
+% Problem Set 3
+
 function numgrad = computeNumericalGradient(J, theta)
 % numgrad = computeNumericalGradient(J, theta)
 % theta: a vector of parameters
@@ -18,12 +22,13 @@ numgrad = zeros(size(theta));
 %                
 % Hint: You will probably want to compute the elements of numgrad one at a time. 
 
+EPSILON = 1e-4;
+e = eye(size(theta, 1));
 
+for i = 1:length(theta)
+    numgrad(i) = (J(theta + EPSILON.*e(:,i)) - J(theta - EPSILON.*e(:,i))) / (2 * EPSILON);
 
-
-
-
-
+end
 
 %% ---------------------------------------------------------------
 end

@@ -12,4 +12,4 @@
 `Work in progress.`
 
 ----
-_Updated on July 24, 2017 by Karan Varindani._
+_Updated on July 25, 2017 by Karan Varindani._

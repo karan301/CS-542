@@ -1,3 +1,7 @@
+% Karan Varindani
+% karan301@bu.edu
+% Problem Set 3
+
 function patches = sampleIMAGES()
 % sampleIMAGES
 % Returns 10000 patches for training
@@ -24,14 +28,14 @@ patches = zeros(patchsize*patchsize, numpatches);
 %  patch corresponding to the pixels in the block (21,21) to (30,30) of
 %  Image 1
 
+for i = 1:numpatches
+    n = randi(size(IMAGES, 3), 1);
+    a = randi(size(IMAGES, 1) / patchsize, 1);
+    b = randi(size(IMAGES,2) / patchsize, 1);
+    img = IMAGES(a*patchsize - patchsize+1:a*patchsize, b*patchsize - patchsize+1:b*patchsize, n);
+    patches(:,i) = img(:);
 
-
-
-
-
-
-
-
+end
 
 %% ---------------------------------------------------------------
 % For the autoencoder to work well we need to normalize the data
