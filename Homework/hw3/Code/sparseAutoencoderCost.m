@@ -51,15 +51,15 @@ a2 = sigmoid(W1*data + repmat(b1, 1, size(data, 2)));
 a3 = sigmoid(W2*a2 + repmat(b2, 1, size(data, 2)));
 
 J = ((1/size(data,2))*sum(sum(0.5*(a3 - data).^2))) + ((lambda/2)*(sum(sum(W1.^2)) + sum(sum(W2.^2))));
-rho_approx = (1/size(data,2))*sum(a2,2);
-% disp(rho_approx);
-KL = sum(sparsityParam.*log(sparsityParam./rho_approx) + (1 - sparsityParam).*...
-    log((1-sparsityParam)./(1-rho_approx)));
+rho = (1/size(data,2))*sum(a2,2);
+% disp(rho);
+KL = sum(sparsityParam.*log(sparsityParam./rho) + (1 - sparsityParam).*...
+    log((1-sparsityParam)./(1-rho)));
 cost = J + (beta * KL);
 
 del3 = -(data - a3).*(a3.*(1 - a3));
-del2 = ((W2'*del3) + repmat(beta.*((-sparsityParam./rho_approx)+...
-    ((1 - sparsityParam)./(1 - rho_approx))), 1, size(data, 2))).*(a2.*(1 - a2));
+del2 = ((W2'*del3) + repmat(beta.*((-sparsityParam./rho)+...
+    ((1 - sparsityParam)./(1 - rho))), 1, size(data, 2))).*(a2.*(1 - a2));
 
 W2grad = ((del3*a2') / size(data, 2)) + (lambda*W2);
 b2grad = sum(del3, 2) / size(data, 2);
