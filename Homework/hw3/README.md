@@ -1,4 +1,4 @@
-# Problem Set 2
+# Problem Set 3
 [Assignment PDF](./ps3.pdf). _Due on July 26, 2017._
 
 ## Notes
