@@ -1,5 +1,5 @@
 # Problem Set 4
-[Assignment PDF](./ps3.pdf). _Due on August 2, 2017._
+[Assignment PDF](./ps4.pdf). _Due on August 2, 2017._
 
 ## Notes
 * Written solutions are in [`math.pdf`](./math.pdf).
