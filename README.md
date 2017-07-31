@@ -9,9 +9,10 @@ Check out the README files in each subdirectory for more detail.
 * [Problem Set 1](/Homework/hw1/)
 * [Problem Set 2](/Homework/hw2/)
 * [Problem Set 3](/Homework/hw3/)
+* [Problem Set 4](/Homework/hw4/)
 
 ### Project
 
 
 ----
-_Updated on July 24, 2017 by Karan Varindani._
+_Updated on July 30, 2017 by Karan Varindani._
