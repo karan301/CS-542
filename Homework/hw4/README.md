@@ -1,5 +1,5 @@
 # Problem Set 4
-[Assignment PDF](./ps4.pdf). _Due on August 2, 2017._
+[Assignment PDF](./ps4.pdf). _Due on August 3, 2017._
 
 ## Notes
 * Written solutions are in [`math.pdf`](./math.pdf).
@@ -7,7 +7,7 @@
 * Assignment is unzipped in the [`Resources`](./Resources/) folder.
 
 ## Documentation
-`Work in progress.`
+`Incomplete - only did math part.`
 
 ----
-_Updated on July 30, 2017 by Karan Varindani._
+_Updated on August 3, 2017 by Karan Varindani._
